@@ -2,9 +2,8 @@
 
 /**
  * main- prints the alphabet in lowercase
- *
- * return - always 0 (success)
- *
+ * and prints newline
+ * return - always 0 (success)*
  */
 int main(void)
 {

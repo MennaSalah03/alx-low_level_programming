@@ -9,17 +9,13 @@
  */
 int main(void)
 {
-	int i,j;
+	int i;
 
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
-		for (j = 48; j < 58; j++)
-		{
-			putchar(j);
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(',');
+		putchar(' ');
 	}
 	return (0);
 }

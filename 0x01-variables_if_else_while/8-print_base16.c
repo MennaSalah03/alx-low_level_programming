@@ -3,7 +3,6 @@
  * main- prints all the numbers in hexadecimals
  * and then a new line
  * return - always 0 (success)
- *
  */
 int main(void)
 {
@@ -14,7 +13,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (ch ='a'; ch <= 'f'; ch++ )
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
