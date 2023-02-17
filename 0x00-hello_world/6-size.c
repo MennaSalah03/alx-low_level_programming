@@ -2,7 +2,9 @@
 
 /*
  *main - entry point
+
  *Description: 'just getting to know some sizes of datatypes'
+ *
  * return gives 0 (success)
  */
 
