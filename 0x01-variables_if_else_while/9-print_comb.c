@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all combinations of single digit numbers
- *
- * with commas separating each combination
- *
- *return 0 means success
+ * main - Entry point
+ * Description: prints numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {

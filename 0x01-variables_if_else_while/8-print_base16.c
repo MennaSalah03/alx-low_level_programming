@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main- prints all the numbers in hexadecimals
- * and then a new line
- * return - always 0 (success)
+ * main - Entry point
+ * Description: Print base 16 numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
