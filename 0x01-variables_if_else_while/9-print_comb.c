@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints all combinations of single digit numbers
  *
  * with commas separating each combination
