@@ -14,8 +14,11 @@ int main(void)
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
-		putchar(',');
-		putchar(' ');
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	return (0);
 }
