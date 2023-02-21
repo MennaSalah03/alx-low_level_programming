@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main- print the string putchar_
- * followed by a new line.
- * always Return 0 (success)
+ * main - prints the string of characters _putchar
+ * followed by a new line
+ * Return: Aways 0 (Sucess)
  */
+
 int main(void)
 {
 	char string[] = "_putchar";
