@@ -1,1 +1,1 @@
-conditionals and loops
+C loops and functions
