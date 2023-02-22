@@ -27,19 +27,6 @@ void jack_bauer(void)
 				sec++;
 			}
 		}
-		else if (min == 23)
-		{
-			while (sec < 51)
-			{
-				_putchar(2 + '0');
-				_putchar(3 + '0');
-				_putchar(':');
-				_putchar(sec / 10 + '0');
-				_putchar(sec % 10 + '0');
-				_putchar('\n');
-				sec++;
-			}
-		}
 	min++;
 	}
 }
