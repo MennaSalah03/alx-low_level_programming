@@ -27,7 +27,7 @@ void jack_bauer(void)
 				sec++;
 			}
 		}
-		else
+		else if (min == 23)
 		{
 			while (sec < 51)
 			{
