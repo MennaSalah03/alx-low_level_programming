@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * void jack_bauer- print all minutes of the day of Jack Bauer
- * each second followed by new line.
- * Return: Aways 0 (Sucess)
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59
  */
+
 void jack_bauer(void)
 {
-	int min,sec;
+	int min, sec;
 
 	min = 0;
 	while (min < 24)
