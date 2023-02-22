@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * int print_sign- tells whether a number's sign
- * followed by a new line
- * Return: Aways 0 (Sucess)
+ * print_sign - prints the sign of a number
+ * @n: the int to check
+ * Return: 1 and prints + lor - if n is not zero
+ * 0 and prints 0 if n is zero
  */
 
 int print_sign(int n)

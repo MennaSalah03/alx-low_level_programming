@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * int _abs- computes the absolute value of an integer.
- * followed by a new line
- * Return: Aways 0 (Sucess)
+ * _abs - prints the number with positive sign
+ * @num: the int to be printed
+ * Return: the nuber wit + sign
  */
+
 int _abs(int num)
 {
 	if (num < 0)

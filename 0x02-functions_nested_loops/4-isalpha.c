@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - checks if input is a letter or otherwise
- * freturns 1 if letter and 0 if otherwise
- * Return: Aways 0 (Sucess)
+ * _isalpha - prints alphabet both in lowecase and upper
+ * Return: Always 0 (Success)
  */
 
 int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122 )
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}

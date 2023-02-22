@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - returns 1 if c is lowercase
- * and returns 0 otherwise
- * Return: always 0: (success)
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 
 int _islower(int c)
 {
-	if(c >= 97 && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}

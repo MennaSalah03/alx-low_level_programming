@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * main - prints the string of characters _putchar
- * followed by a new line
- * Return: Aways 0 (Sucess)
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	char string[] = "_putchar";
-	
 	int a;
 
 	for (a = 0; a < 8; a++)
