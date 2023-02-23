@@ -5,7 +5,6 @@
  * @n : The number of '_' characters to use
  * Return: Void.
  */
-
 void print_line(int n)
 {
 	int i;
@@ -16,3 +15,4 @@ void print_line(int n)
 	}
 	_putchar('\n');
 }
+
