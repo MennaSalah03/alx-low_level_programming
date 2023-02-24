@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - debugging the finction positive_or_negative
+ * Description: main - debugging the finction positive_or_negative
  * Return: 0 (success)
  */
 
