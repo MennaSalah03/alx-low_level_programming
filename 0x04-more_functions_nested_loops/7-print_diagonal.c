@@ -5,22 +5,23 @@
  * @n : The number of lines using '\' characters to use
  * Return: Void.
  */
-
 void print_diagonal(int n)
 {
-		int num;
+	int i;
+	int spaces;
 
-		for (n = 0; num <= n; num++)
+	for (i = 0; i < n; i++)
+	{
+		for (spaces = 0; spaces < i; spaces++)
 		{
 			_putchar(' ');
-			if (num == n)
-			{
-				_putchar('\');
-			}
-			_putchar('\n');
 		}
-		if (n <= 0)
-		{
-			_putchar('\n');
-		}
+		_putchar('\\');
+		_putchar('\n');
+	}
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
 }
