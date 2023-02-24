@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * tells us whether an integer is in the range from 0 to 9 or not
+ * _isdigit - tells us whether an integer is in the range from 0 to 9 or not
  * @c: the integer checked
  * Return: always 0
  */
