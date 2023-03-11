@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints the number of arguments
@@ -7,7 +8,7 @@
  * Return: always 0 (auccess)
  */
 
-int main(int argc,char __attribute__((__unused__)) **agrv)
+int main(int argc,char **agrv __attribute__((__unused__)))
 {
 	printf("%d\n", argc - 1);
 	return (0);

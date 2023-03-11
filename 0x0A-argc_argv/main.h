@@ -6,6 +6,4 @@
  */
 
 int _putchar(char c);
-ك
-
 #endif
