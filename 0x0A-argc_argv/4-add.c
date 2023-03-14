@@ -10,17 +10,26 @@
 
 int main(int argc, char **argv)
 {
-	int sum, x, y;
-	
-	if (argc != 3)
-	{
-		printf("Error\n");
+	int sum, i;
 
-		return (1);
+	sum = 0;
+	for (i = 1; i < argc; i++)
+	{
+		if (!(integercheck(atoi(argv[i]))))
+			i
+		{
+			printf("Error\n");
+
+			return (1);
+		}
+		else if (argc == 1)
+		{
+			printf("0");
+		}
+	
+		argv[i] = atoi(argv[i]);
+		sum += arg[i];
 	}
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
-	sum = x + y;
 	printf("%d\n", sum);
 
 	return (0);
