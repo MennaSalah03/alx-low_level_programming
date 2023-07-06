@@ -7,7 +7,6 @@
  * s: the string to be printed
  *
  * Return: Void
- *
  */
 
 void _puts_recursion(char * s)
