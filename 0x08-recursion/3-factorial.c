@@ -2,21 +2,25 @@
 #include "main.h"
 
 /**
- * factorial - prints the factorial of a positive integer
+ * factorial - prints the factorial of a positive integer.
  *
- * n: the integer to get the factorial of
+ * n: the integer to get the factorial of.
  *
- * Return: The factorial
+ * Return: The factorial.
  */
 
 int factorial(int n)
 {
 	if (n > 0)
 	{
-		return (n  * factorial(n - 1);
+		return (n * factorial(n - 1));
 	}
 	else if (n == 0)
 	{
 		return (1);
+	}
+	else
+	{
+	return (-1);
 	}
 }

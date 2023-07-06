@@ -4,7 +4,7 @@
 /**
  * _strlen_recursion - prints a string's length
  *
- * s: the string
+ * s: the string pointer
  *
  * Return: the string length as integer
  */
