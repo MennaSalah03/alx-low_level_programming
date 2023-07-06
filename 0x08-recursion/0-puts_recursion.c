@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
-* _puts_recursion - perform like puts(prints string to the screen)
-* s: the string to be printed
-* Return: Void 
-*/
+/**
+ * puts_recursion - perform like puts(prints string to the screen)
+ *
+ * s: the string to be printed
+ *
+ * Return: Void
+ *
+ */
 
 void _puts_recursion(char * s)
 {
