@@ -11,7 +11,7 @@
  * Return: should always 0 to ensure success
  */
 
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	printf("%s\n", argv[argc -1]);
 	return (0);
