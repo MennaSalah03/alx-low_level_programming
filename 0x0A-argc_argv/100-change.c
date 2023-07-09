@@ -7,7 +7,7 @@
  * @argc: count of the arguments
  * @argv: pointer to the arguments
  *
- * Return: always 0 (success)
+ * Return: always 0 (success) 1 if error
  */
 
 int main(int argc, char *argv[])
@@ -26,15 +26,19 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
+
 	while (val != 0)
 	{
-		for (i = 0; i < 5; i++)
+		for (i = 0; i < 5;)
 		{
 			if (val >= coins[i])
 			{
 				val -= coins[i];
 				count++;
-				break;
+			}
+			else
+			{
+				i++;
 			}
 
 		}
