@@ -16,11 +16,10 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *ptr;
 
-	if (size == 0)
+	if (size == 0 || ptr == NULL)
 	{
 		return (NULL);
 	}
-
 	ptr = (char *) malloc(size * sizeof(char));
 	for (i = 0; i <= size; i++)
 	{
@@ -28,6 +27,5 @@ char *create_array(unsigned int size, char c)
 	}
 	*(ptr + i) = '\0';
 
-	/* we didn't free the dynamically allocated space for it's already done in the main file*/
 	return (ptr);
 }
