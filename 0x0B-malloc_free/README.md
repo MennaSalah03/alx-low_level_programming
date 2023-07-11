@@ -1,2 +1,2 @@
 ## Dynamic memory allocation (MDA)
-Tasks: 5//Done: 0
+Tasks: 5//Done: 2
