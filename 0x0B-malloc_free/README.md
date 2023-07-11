@@ -1,2 +1,3 @@
 ## Dynamic memory allocation (MDA)
-Tasks: 7<br>Done: 2
+Tasks: 7  
+Done: 3
