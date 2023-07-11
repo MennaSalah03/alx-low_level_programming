@@ -21,12 +21,12 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	ptr = (char*) malloc(size * sizeof(char));
-	for (i = 0; i < size; i++)
+	ptr = (char *) malloc(size * sizeof(char));
+	for (i = 0; i <= size; i++)
 	{
 		*(ptr + i) = c;
 	}
-	*(ptr + 1) = '\0';
+	*(ptr + i) = '\0';
 
 	/* we didn't free the dynamically allocated space for it's already done in the main file*/
 	return (ptr);
