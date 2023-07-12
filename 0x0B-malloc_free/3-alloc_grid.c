@@ -6,34 +6,32 @@
  * alloc_grid - prints a 2 dimensional array.
  * @width: width of array
  * @height: height of array
- * 
+ *
  * Return: the array
  */
 
 int **alloc_grid(int width, int height)
 {
-	int i , j;
+	int i, j;
 	int **arr;
 
 	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
 	}
-	arr = (int **) malloc(sizeof(int *) * height);
 
-	for (i = 0; i <height; i++)
+	arr = (int **) malloc(sizeof(int *) * height);
+	for (i = 0; i < height; i++)
 	{
 		arr[i] = (int *) malloc(sizeof(int) * width);
 	}
+
 	if (arr == NULL)
 	{
-		for (i = 0; i < height; i++)
-		{
-			for (j = 0; j < width; j++)
-				free(arr[i]);
-		}
+		free(arr);
 		return (NULL);
 	}
+
 	for (i = 0; i < height; i++)
 	{
 		for (j = 0; j < width; j++)
