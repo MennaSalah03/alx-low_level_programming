@@ -9,9 +9,11 @@
 
 void free_grid(int **grid, int height)
 {
-	/*we do the same process in last task by freeing memory*/
-	/*we also check case NULL and no height  to eliminate them
-	 *  cuz u can't free what's not there*/
+	/**
+	 * we do the same freeing process as last task.
+	 * *we also check case NULL and no height  to eliminate them cuz
+	 *  u can't free what's not there
+	 */
 	if (height != 0 || grid != NULL)
 	{
 		for (; height >= 0; height--)
