@@ -5,6 +5,8 @@
 /**
  * malloc_checked - allocated memory using malloc
  * @b: the size of memory to be allocated
+ *
+ * Return: voif pointer on succes and 98 on failure
  */
 
 void *malloc_checked(unsigned int b)
