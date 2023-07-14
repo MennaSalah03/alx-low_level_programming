@@ -4,17 +4,17 @@
 
 /**
  * _calloc - allocates memory and make all values 0
- * @nmemb: number of blocks to be allocated
+ * @nmemb: number of blocks to be allocated.
  * @size: The size of each block
  *
- * Return: NULL pointer
+ * Return: A pointer.
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 	char *ptr;
-	
+
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
@@ -26,7 +26,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 	for (i = 0; i < (nmemb * size); i++)
 	{
-		ptr [i] = 0;
+		ptr[i] = 0;
 	}
 	return (ptr);
 }
