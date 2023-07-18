@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * print_dog: print structure components
- * @d: pointer to struct
+ * print_dog - print structure components
+ * @d: pointer to struct dog
  *
  * Return: Nothing
  */
@@ -26,7 +26,7 @@ void print_dog(struct dog *d)
 		}
 		else
 		{
-			printf("Age: (nil)\n");
+			printf("Age: %f\n", 0.0);
 		}
 		if ((*d).owner != NULL)
 		{
