@@ -20,9 +20,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	for (n_len = 0; name[n_len] != '\0'; n_len++)
 		;
+	n_len++;
 	for (o_len = 0; owner[o_len] != '\0'; o_len++)
 		;
-
+	o_len++;
 	if (name == NULL || owner == NULL)
 	{
 		return (NULL);
