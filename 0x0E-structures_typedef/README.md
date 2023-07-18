@@ -1,3 +1,3 @@
 ## Structures - typedef
 Tasks: 6  
-Done: 0
+Done: 6
