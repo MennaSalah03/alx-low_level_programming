@@ -1,0 +1,10 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * main - contains all prototypes.
+ */
+
+void print_name(char *name, void (*f)(char *));
+
+#endif
