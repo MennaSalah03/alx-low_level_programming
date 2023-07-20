@@ -1,3 +1,3 @@
 ## Variadic functions
 Tasks: 4  
-Done: 0
+Done: 4
