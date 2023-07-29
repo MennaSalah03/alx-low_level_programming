@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <stdlib.h>/**/
+#include <string.h>/*strdup*/
 #include "lists.h"
 
 /**
  * add_node - adds a node to the head of list.
- * @h: pointer to the pointer to beginning of list.
+ * @head: pointer to the pointer to beginning of list.
  * @str: string stored in beginning list.
  *
  * Return: pointer to the beginning of the list or NULL on failure.
