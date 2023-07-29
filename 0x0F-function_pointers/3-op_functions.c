@@ -26,7 +26,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_sub - applies multiplication for 2 numbers
+ * op_mul - applies multiplication for 2 numbers
  * @a: 1st integer
  * @b: 2nd integer
  * Return: the multiplication result
@@ -37,7 +37,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_sub - applies division for 2 numbers
+ * op_div - applies division for 2 numbers
  * @a: 1st integer
  * @b: 2nd integer
  * Return: the division result
@@ -53,7 +53,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_sub - applies modulus for 2 numbers
+ * op_mod - applies modulus for 2 numbers
  * @a: 1st integer
  * @b: 2nd integer
  * Return: the modulus result
