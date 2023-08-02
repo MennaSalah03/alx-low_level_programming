@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listinr2 - frees the structure where the list is formed upon
+ * free_listint2 - frees the structure where the list is formed upon
  * @head: pointer to address of the first element
  *
  * return: Nothing

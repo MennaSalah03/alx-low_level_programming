@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint
+ * free_listint - frees the linked list
  * @head: address of forst node
  *
  * Return: Nothing
